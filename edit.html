@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+   </script>
+
+   <link rel="stylesheet" href="css/style.css" />
+   <title>EditProfile</title>
+</head>
+<body>
+   
+   <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">TheDragonWarrior</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">The Dragon Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/edit.html">Edit Your Dragon Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   <br>
+    <h2 class="text-center">Edit Your Dragon Profile</h2>
+    <br>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="https://www.linkedin.com/in/ori-bashary-604519175" class="link-dark">TheRealDragonWarrior LinkedIn Profile</a></p>
+      <p><a href="https://youtu.be/PXi3Mv6KMzY" class="link-dark">Kung Fu Panda | Official Trailer</a></p>
+      <p><a href="https://youtu.be/FQ63rqSRrEI" class="link-dark">Kung Fu Panda 2 | Official Trailer</a></p>
+      <p><a href="https://youtu.be/10r9ozshGVE" class="link-dark">Kung Fu Panda 3 | Official Trailer</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <form action="get_params_login.php">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingFullName1" placeholder="Full Name" name="reg_un">
+          <label for="floatingFullName1">Enter Your Username</label>
+       </div>
+       <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="floatingPassword1" placeholder="Password" name="reg_pass" pattern="[a-zA-Z0-9]{5,10}">
+          <label for="floatingPassword1">Enter Old Password</label>
+       </div>
+       <div class="form-floating mb-3">
+          <input type="tel" class="form-control" id="floatingCell1" placeholder="Cellphone" name="reg_tel" pattern="[0-9]{9,10}">
+          <label for="floatingCell1">Enter Your Cellphone Number</label>
+       </div>
+      <br>
+      <br>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPasswordNew" placeholder="Password" name="reg_pass_new" pattern="[a-zA-Z0-9]{5,10}">
+        <label for="floatingPasswordNew">Enter new Password</label>
+     </div>
+
+         <input type="submit" value="Submit Form">
+      </form>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>“Yesterday is history,
+         tomorrow is a mystery, 
+         and today is a gift... 
+         that's why they call it present” 
+         ― Master Oogway</p>
+      </div>
+      <div class="well">
+         <p>“Your story may not have such a happy beginning but that does not make you who you are, it is the rest of it- who you choose to be” 
+            ― Soothsayer from Kung Fu Panda 2</p>
+       </div>
+       <div class="well">
+         <p>“If you only do what you can do, you will never be more than who you are.” 
+            ― Master Shifu</p>
+       </div>
+       <div class="well">
+         <p>“Po: Maybe I should just quit and go back to making noodles.
+            Oogway: Quit, don't quit? Noodles, don't noodles? You are too concerned about what was and what will be. There is a saying: yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the "present.” 
+            ― Kung Fu Panda</p>
+       </div>
+       <div class="well">
+         <p>“There is no secret ingredient” 
+            ― Mr Ping, Po's father</p>
+       </div>
+       <div class="well">
+         <p>“Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.” 
+            ― Kung Fu Panda</p>
+       </div>
+       <div class="well">
+         <p>“There are no coincidences in this world.” 
+            ― Turtle in Kung Fu Panda</p>
+       </div>
+       <div class="well">
+         <p>“We do not wash our pits in the pool of sacred tears” 
+            ― Shifu</p>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="container-fluid text-center">
+  
+</footer>
+   <script src="/script.js"></script>
+   
+</body>
+</html>
